@@ -58,7 +58,7 @@ function VoiceSynthesizer({
     };
 
     //   eslint-disable-next-line
-  }, [state]);
+  }, [state, voice, pitch, rate, volume, synth]);
   return (
     <div className="flex flex-col items-center justify-center text-white">
       {displaySettings && (
