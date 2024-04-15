@@ -40,7 +40,7 @@ function VoiceSynthesizer({
   useEffect(() => {
     setSynth(window.speechSynthesis);
     //   eslint-disable-next-line
-  }, [window]);
+  }, []);
 
   useEffect(() => {
     if (!state.response || !synth) return;
