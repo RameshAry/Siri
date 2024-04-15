@@ -70,6 +70,7 @@ function Recorder({ uploadAudio }: { uploadAudio: (blob: Blob) => void }) {
   useEffect(() => {
     getMicrophonePermission();
   }, []);
+
   return (
     <div className="flex flex-center justify-center text-white">
       {!permission && (

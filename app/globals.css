@@ -5,6 +5,9 @@
     .assistant {
       @apply h-40 w-40 object-contain
     }
+    .message{
+      @apply bg-purple-500 relative text-white p-4 rounded-lg w-fit;
+    }
   }
 
   @layer base {
